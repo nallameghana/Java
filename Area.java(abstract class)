@@ -1,0 +1,40 @@
+import java.io.*;
+import java.util.*;
+abstract class Shape {
+	abstract public void area1();
+}
+class Rectangle extends Shape{
+	public void area1() {
+		Scanner s = new Scanner(System.in);
+		int a = s.nextInt();
+		int b = s.nextInt();
+		int c = a * b;
+		System.out.println("Area of rectangle : " + c);
+	}
+}
+class Square extends Shape {
+	public void area1() {
+		Scanner s1 = new Scanner(System.in);
+		int a = s1.nextInt();
+		int b = a*a;
+		System.out.println("Area of square : " + b);
+	}
+}
+class Triangle extends Shape {
+	public void area1() {
+		Scanner s2 = new Scanner(System.in);
+		float l = s2.nextInt();
+		int b = s2.nextInt();
+		float c = (0.5f) * (l* b);
+		System.out.println("Area of Traingle : " + c);
+	}
+}
+public class Area {
+
+	public static void main(String[] args) {
+		Triangle e = new Triangle();
+		e.area1();
+
+	}
+
+}
