@@ -7,7 +7,7 @@ class Node {
         this.next = null;
     }
 }
-public class Main
+public class StackLLImplementation 
 {
     static Node head = null;
     static Node tail = null;
