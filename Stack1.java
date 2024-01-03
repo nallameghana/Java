@@ -31,7 +31,7 @@ class StackImp {
         return q.isEmpty();
     }
 }
-class Main {
+class Stack1 {
     public static void main(String[] args) {
         StackImp s = new StackImp();
         s.push(1);
