@@ -7,7 +7,7 @@ class Node {
         this.next = null;
     }
 }
-public class Main
+public class LinkedList
 {
     static Node n;
 	static Node head = null;
